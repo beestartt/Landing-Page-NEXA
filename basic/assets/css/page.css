@@ -1894,8 +1894,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #50a1ff;
-  border-color: #50a1ff; }
+  background-color: #d83c00;
+  border-color: #d83c00; }
   .btn-primary:hover {
     color: #fff;
     background-color: #3c96ff;
@@ -1907,13 +1907,13 @@ fieldset:disabled a.btn {
     -webkit-box-shadow: 0 0 0 0rem rgba(80, 161, 255, 0.5);
             box-shadow: 0 0 0 0rem rgba(80, 161, 255, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
-    background-color: #50a1ff;
-    border-color: #50a1ff; }
+    background-color: #d83c00;
+    border-color: #d83c00; }
   .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #278bff;
-    border-color: #278bff;
+    background-color: #d83c00;
+    border-color: #d83c00;
     -webkit-box-shadow: 0 0 0 0rem rgba(80, 161, 255, 0.5);
             box-shadow: 0 0 0 0rem rgba(80, 161, 255, 0.5); }
 
@@ -4867,7 +4867,7 @@ button.bg-secondary:focus {
   background-color: #cbd2db !important; }
 
 .bg-success {
-  background-color: #3cd458 !important; }
+  background-color: #d83c00 !important; }
 
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
@@ -4957,7 +4957,7 @@ button.bg-dark:focus {
   border-color: #e9ecf0 !important; }
 
 .border-success {
-  border-color: #3cd458 !important; }
+  border-color: #d83c00 !important; }
 
 .border-info {
   border-color: #926dde !important; }
@@ -9150,10 +9150,10 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #bcc5d1 !important; }
 
 .text-success {
-  color: #3cd458 !important; }
+  color: #d83c00 !important; }
 
 a.text-success:hover, a.text-success:focus {
-  color: #23a03a !important; }
+  color: #d83c00 !important; }
 
 .text-info {
   color: #926dde !important; }
@@ -15264,7 +15264,7 @@ a.pswp__share--download:hover {
   color: #e9ecf0; }
 
 [data-type].text-success + .typed-cursor {
-  color: #3cd458; }
+  color: #d83c00; }
 
 [data-type].text-info + .typed-cursor {
   color: #926dde; }
@@ -16262,7 +16262,7 @@ button:focus {
   border-color: transparent;
   color: #fff; }
   .btn-glass.btn-primary:hover {
-    background-color: rgba(80, 161, 255, 0.9); }
+    background-color: #d83c00; }
 
 .btn-glass.btn-secondary {
   background-color: rgba(233, 236, 240, 0.6);
@@ -21907,5 +21907,9 @@ a.text-lightest:hover, a.text-lightest:focus {
       color: #757575; }
   .text-white .close {
     color: rgba(255, 255, 255, 0.85); }
+
+  .orange-text {
+    color: #ff8900 !important;
+  }
 
 /*# sourceMappingURL=page.css.map */

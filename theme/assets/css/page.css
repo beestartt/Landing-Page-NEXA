@@ -9150,7 +9150,7 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #bcc5d1 !important; }
 
 .text-success {
-  color: #3cd458 !important; }
+  color: #d83c00 !important; }
 
 a.text-success:hover, a.text-success:focus {
   color: #23a03a !important; }
@@ -15264,7 +15264,7 @@ a.pswp__share--download:hover {
   color: #e9ecf0; }
 
 [data-type].text-success + .typed-cursor {
-  color: #3cd458; }
+  color: #d83c00; }
 
 [data-type].text-info + .typed-cursor {
   color: #926dde; }
